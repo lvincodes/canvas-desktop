@@ -1,0 +1,26 @@
+{
+  "name": "canvasdesktopapp",
+  "version": "1.0.0",
+  "description": "A simple Canvas desktop app, built with Nativefier and Node.JS",
+  "main": "lib/main.js",
+  "author": "Jia Hao, lvincodes",
+  "license": "MIT",
+  "keywords": [
+    "desktop",
+    "electron",
+    "canvas"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "electron-context-menu": "2.x",
+    "electron-dl": "3.x",
+    "electron-squirrel-startup": "1.x",
+    "electron-window-state": "5.x",
+    "replace-in-file": "^6.2.0",
+    "source-map-support": "0.x",
+    "wurl": "2.x"
+  },
+  "devDependencies": {
+    "electron": "11.x"
+  }
+}
