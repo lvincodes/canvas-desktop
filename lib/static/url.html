@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Enter URL:</title>
+  <link rel="stylesheet" type="text/css" href="url.css" />
+</head>
+<html>
+  <body>
+    <form class="url-form" id="url-form" onsubmit="sendIPC">
+      <div>
+        <label for="url">Canvas URL:</label>
+        <input type="url" id="url" />
+      </div>
+      <div>
+        <button id="submit-form-button" type="submit">Submit</button>
+      </div>
+      <p class="text">After pressing submit, restart the app.</p>
+    </form>
+    <script src="url.js"></script>
+  </body>
+</html>
